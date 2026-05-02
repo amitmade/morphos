@@ -24,6 +24,8 @@
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
   },
+  "author": "amitmade",
+  "license": "ISC",
   "dependencies": {
     "culori": "^4.0.1",
     "zod": "^3.23.8"
