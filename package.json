@@ -1,0 +1,26 @@
+{
+  "name": "morphos",
+  "version": "1.0.0",
+  "description": "Math-driven, accessibility-first generative design engine.",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/web",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "keywords": [
+    "design-system",
+    "generative",
+    "tailwind",
+    "typescript",
+    "oklch"
+  ],
+  "author": "",
+  "license": "ISC"
+}
